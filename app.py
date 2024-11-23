@@ -6,7 +6,7 @@ st.balloons()
 st.title("💬 BotIA")
 st.write(
    "Hola! Soy una app de IA, estoy aquí para ayudarte en lo que necesites."
-   "¡Comencemos!"
+   "¡Comencemos! ✨"
 )
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
