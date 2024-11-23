@@ -3,11 +3,9 @@ from openai import OpenAI
 
 st.balloons()
 # Show title and description.
-st.title("💬 Chatbot")
+st.title("💬 BotIA")
 st.write(
-   "Hola! Soy una app de IA, estoy aquí para ayudarte en lo que necesites "
-   "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
-   "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
+   "Hola! Soy una app de IA, estoy aquí para ayudarte en lo que necesites " "Comencemos"
 )
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
