@@ -5,7 +5,8 @@ st.balloons()
 # Show title and description.
 st.title("💬 BotIA")
 st.write(
-   "Hola! Soy una app de IA, estoy aquí para ayudarte en lo que necesites " "Comencemos"
+   "Hola! Soy una app de IA, estoy aquí para ayudarte en lo que necesites."
+   "¡Comencemos!"
 )
 openai_api_key = st.secrets["api_key"] 
 # Create an OpenAI client.
